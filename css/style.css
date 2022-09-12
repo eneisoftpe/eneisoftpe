@@ -32,6 +32,34 @@ h6 {
   background-color: #223A59;
 }
 
+.bg-orange {
+  background-color: #E78159;
+}
+
+.bg-green {
+  background-color: #649D7E;
+}
+
+.bg-fuchsia {
+  background-color: #CF82BC;
+}
+
+.bg-dark-fuchsia {
+  background-color: #90657B;
+}
+
 .w-1440 {
   max-width: 1440px;
+}
+
+.custom-link {
+  all: unset;
+  padding: 8px 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rounded-20 {
+  border-radius: 20px;
 }
