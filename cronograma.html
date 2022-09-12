@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cronograma</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -52,65 +53,177 @@
       </div>
     </nav>
 
+    <!-- carrusel -->
     <div
       id="carouselExampleIndicators"
       class="carousel slide"
-      data-ride="carousel"
+      data-bs-ride="true"
     >
-      <ol class="carousel-indicators">
-        <li
-          data-target="#carouselExampleIndicators"
-          data-slide-to="0"
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
           class="active"
-        ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img
-            class="d-block w-100"
-            src="assets/firstSlide.png"
-            alt="First slide"
-          />
+          <img src="./assets/firstSlide.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="assets/firstSlide.png"
-            alt="Second slide"
-          />
+          <img src="./assets/secondSlide.png" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="assets/firstSlide.png"
-            alt="Third slide"
-          />
+          <img src="./assets/thirdSlide.png" class="d-block w-100" alt="..." />
         </div>
       </div>
-      <a
+      <button
         class="carousel-control-prev"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
         class="carousel-control-next"
-        href="#carouselExampleIndicators"
-        role="button"
-        data-slide="next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- separador -->
+    <div class="container">
+      <img class="w-100" src="./assets/separadorlogo.png" alt="" />
+    </div>
+    <!-- card-->
+        <!-- card-->
+        <div class="lienzo">
+            <div class="card_section">
+              <div class="card_container">
+                <div class="card_title">
+                  <div class="card_title_primary">ACERCA DEL EVENTO</div>
+                  <div class="card_title_second">/ven a comparti y aprender</div>
+                </div>
+      
+                <div class="card_description">
+                  ENEISOFT dara un evento organizado por estudiantes de la Escuela
+                  Académica Profesional de Ingenieria de Software e Ingenieria de
+                  Sistemas de la Facultad de Ingenieria de Sistemas e Informaticas de
+                  la Universidad Nacional Mayor de San Marcos. Nos vemos los proximos
+                  15, 16 y 17 de Setiembre en la Facultad de Sistemas e Ingenieria.
+                </div>
+              </div>
+              <div class="card_img_container">
+                <img src="assets/bitty.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- cronograma -->
+    <div class="container">
+      <h3>Cronograma</h3>
+      <!-- jueves 15 -->
+      <div>
+        <h5>
+          <img src="assets/icons/calendar-fill.svg" alt="" />
+          Jueves 15 De Setiembre
+        </h5>
+        <!-- The Timeline -->
+        <div class="boxtimeline">
+          <ul class="timeline">
+            <!-- Item 1 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Inaguracion</span>
+                  
+                  <span class="time-wrapper"><span class="time">2:00pm - 3:00pm</span></span>
+                </div>
+                <div class="desc">
+                  My current employment. Way better than the position before!
+                </div>
+              </div>
+            </li>
+
+            <!-- Item 2 -->
+            <li>
+              <div class="direction-l">
+                <div class="flag-wrapper">
+                  <span class="flag">Apple Inc.</span>
+                  <span class="time-wrapper"
+                    ><span class="time">2011 - 2013</span></span
+                  >
+                </div>
+                <div class="desc">
+                  My first employer. All the stuff I've learned and projects
+                  I've been working on.
+                </div>
+              </div>
+            </li>
+
+            <!-- Item 3 -->
+            <li>
+              <div class="direction-r">
+                <div class="flag-wrapper">
+                  <span class="flag">Harvard University</span>
+                  <span class="time-wrapper"
+                    ><span class="time">2008 - 2011</span></span
+                  >
+                </div>
+                <div class="desc">
+                  A description of all the lectures and courses I have taken and
+                  my final degree?
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- viernes 16 -->
+      <div>
+        <h5>
+          <img src="assets/icons/calendar-fill.svg" alt="" />
+          Viernes 16 De Setiembre
+        </h5>
+      </div>
+      <!-- sabado 17 -->
+      <div>
+        <h5>
+          <img src="assets/icons/calendar-fill.svg" alt="" />
+          Sabado 17 De Setiembre
+        </h5>
+      </div>
     </div>
 
     <!-- Script de bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
   </body>
