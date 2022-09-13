@@ -76,20 +76,55 @@ body {
 }
 
 /* Timeline */
+/* Timeline */
 .card_box_time {
-  background: rgb(255, 255, 255);
+  background: rgba(244, 244, 244, 0.2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+}
+.time_line_btn {
+  margin: 15px;
 }
 .box--time__description {
   display: flex;
   flex-wrap: wrap;
-  background: #6c7a8b;
+  justify-content: center;
+  background: #203a59;
   border-radius: 4px;
 }
 .time_line--reference {
-  text-decoration: none;
   display: flex;
+  align-items: center;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+}
+.time_line_box--information {
+  padding-left: 5px;
+}
+@media screen and (max-width: 730px) {
+  .time_line_box--information {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.time_lime--icon {
+  display: flex;
+  padding-right: 10px;
+}
+.time_line--title {
+  color: #5fb5e7;
+}
+.time_line--description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #ffffff;
 }
 .timeline {
   line-height: 1.5em;
@@ -187,6 +222,10 @@ body {
     .timeline--entry:nth-child(5) {
       grid-area: entry5;
     }
+    .timeline--entry:nth-child(6) {
+      grid-area: entry3;
+    }
+
     .timeline--entry:nth-of-type(odd):before {
       left: -3.8em;
     }
