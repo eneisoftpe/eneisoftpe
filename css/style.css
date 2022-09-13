@@ -48,18 +48,47 @@ h6 {
   background-color: #90657B;
 }
 
+.bg-orange-2 {
+  background-color: #BB400F;
+}
+
+.w-xl-200 {
+  width: 200px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
 .w-1440 {
   max-width: 1440px;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
 .custom-link {
   all: unset;
-  padding: 8px 10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: white;
+  border-radius: 15px;
   cursor: pointer;
+  color: #E78159;
 }
 
 .rounded-20 {
   border-radius: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .w-xl-200 {
+    width: 100%;
+  }
 }
