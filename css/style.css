@@ -52,6 +52,26 @@ h6 {
   background-color: #BB400F;
 }
 
+.text-orange {
+  color: #E78159
+}
+
+.text-green {
+  color: #649D7E
+}
+
+.bg-green-2 {
+  background-color: #3B664F;
+}
+
+.bg-fuchsia-2 {
+  background-color: #C53AA2;
+}
+
+.bg-dark-fuchsia-2 {
+  background-color: #713B56;
+}
+
 .w-xl-200 {
   width: 200px;
 }
@@ -74,7 +94,6 @@ h6 {
   background-color: white;
   border-radius: 15px;
   cursor: pointer;
-  color: #E78159;
 }
 
 .rounded-20 {

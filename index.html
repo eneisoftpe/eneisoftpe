@@ -50,14 +50,14 @@
     </div>
   </nav>
 
-  <div class="container-fluid w-1440 mx-auto">
+  <div class="container w-1440 mx-auto mb-5">
     <!-- Encabezado principal -->
     <h1 class="fs-2 fw-semibold my-4">Descubre nuestras actividades!</h1>
 
     <!-- Cards -->
     <div class="row g-5" data-masonry='{ "percentPosition": true }'>
       <div class="col col-md-6">
-        <div class="card bg-orange rounded-20 position-relative p-2 pb-xl-0">
+        <div class="card bg-orange rounded-20 p-2 pb-xl-0">
           <div class="card-body pb-xl-0">
             <h5 class="card-title fs-1 mb-4 fw-bold text-white">Conferencias</h5>
             <p class="card-text text-white mb-4">Ponencias de entre 45 a 60 minutos cada una y que se darán a lo largo
@@ -81,7 +81,7 @@
                     </span>
                   </div>
                   <div class="w-100">
-                    <a href="#" class="card-link custom-link fw-bold text-center">Conoce más aquí <i class="fa-solid fa-caret-right"></i></a>
+                    <a href="#" class="card-link custom-link fw-bold text-center text-orange">Conoce más aquí <i class="fa-solid fa-caret-right"></i></a>
                   </div>
                 </div>
               </div>
@@ -90,70 +90,86 @@
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-green rounded-20 p-2">
-          <div class="card-body">
-            <h5 class="card-title fs-3 mb-3 fw-bold text-white">Programación Competitiva</h5>
-            <p class="card-text text-white mb-4">El evento tiene como finalidad ser una competencia de programación
-              interbase, interfacultad e interuniversitaria en la
-              Universidad Nacional Mayor de San Marcos con participantes a nivel nacional, nuestro objetivo es crear un
-              ambiente de
-              competencia sana usando la programación como medio para competir, asimismo queremos integrar a las bases
-              de la FISI y
-              aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y en
-              general, un evento
-              entretenido.</p>
-            <p class="card-subtitle text-white mb-3 fw-bold">
-              <i class="fa-solid fa-calendar me-2"></i>
-              Fecha del evento: 15/09
+        <div class="card bg-green rounded-20 p-2 pb-xl-0">
+          <div class="card-body pb-xl-0">
+            <h5 class="card-title fs-1 mb-4 fw-bold text-white">Programación Competitiva</h5>
+            <p class="card-text text-white mb-4">El evento tiene como finalidad ser una competencia de programación interbase, interfacultad e interuniversitaria en la Universidad Nacional Mayor de San Marcos con participantes a nivel nacional, nuestro objetivo es crear un ambiente de competencia sana usando la programación como medio para competir, asimismo queremos integrar a las bases de la FISI y aumentar su interacción creando oportunidades de ver talentos escondidos, nuevas experiencias y en general, un evento entretenido.
             </p>
-            <div class="d-flex flex-column flex-sm-row justify-content-between">
-              <a href="#" class="card-link text-white custom-link align-self-end">Inscríbete aquí ></a>
-              <img src="./assets/ilustrations/programacion-competitiva.png" class="card-img-top img-fluid w-75" alt="Conferencias">
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center w-xl-200 mx-auto">
+              <div class="w-100">
+                <div class="w-200 mx-auto">
+                  <div class="p-4 bg-green-2 d-flex flex-column align-items-center mb-4 fs-4 rounded-20 ff-gilroy w-100">
+                    <i class="fa-solid fa-calendar mb-3 text-white fs-1"></i>
+                    <span class="card-subtitle text-white mb-3 fw-bold">
+                      Septiembre
+                    </span>
+                    <span class="card-subtitle text-white fw-bold">
+                      15
+                    </span>
+                  </div>
+                  <div class="w-100 mb-2">
+                    <a href="#" class="card-link custom-link text-green fw-bold text-center">Conoce más aquí <i class="fa-solid fa-caret-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <img src="./assets/ilustrations/programacion-competitiva.png" class="card-img-top img-fluid w-75 d-none d-xl-block" alt="Programacion Competitiva">
             </div>
           </div>
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-fuchsia rounded-20 p-2">
-          <div class="card-body">
-            <h5 class="card-title fs-3 mb-3 fw-bold text-white">Hackathon
-            </h5>
-            <p class="card-text text-white mb-4">Este evento tiene como objetivo desarrollar y demostrar las capacidades
-              de programación y creatividad a través de
-              proyectos realizados de forma grupal, estos pueden ser el desarrollo de una aplicación web o móvil, además
-              llevando al
-              límite la comunicación y el trabajo en equipo. Consta de 3 días en los cuales los equipos participantes
-              tendrán que
-              realizar un proyecto que será evaluado por el jurado calificador. Logrando dar a conocer buenos proyectos
-              y a su vez
-              descubriendo a jóvenes programadores con talento.</p>
-            <p class="card-subtitle text-white mb-3 fw-bold mb-5">
-              <i class="fa-solid fa-calendar me-2"></i>
-              Fecha del evento: 15/09 - 17/09
+        <div class="card bg-fuchsia rounded-20 p-2 ">
+          <div class="card-body ">
+            <h5 class="card-title fs-1 mb-4 fw-bold text-white">Hackathon</h5>
+            <p class="card-text text-white mb-4">Este evento tiene como objetivo desarrollar y demostrar las capacidades de programación y creatividad a través de proyectos realizados de forma grupal, estos pueden ser el desarrollo de una aplicación web o móvil, además llevando al límite la comunicación y el trabajo en equipo. Consta de 3 días en los cuales los equipos participantes tendrán que realizar un proyecto que será evaluado por el jurado calificador. Logrando dar a conocer buenos proyectos y a su vez descubriendo a jóvenes programadores con talento.
             </p>
-            <div class="d-flex justify-content-between">
-              <img src="./assets/ilustrations/hackaton.png" class="card-img-top img-fluid w-50" alt="Conferencias">
-              <a href="#" class="card-link text-white custom-link align-self-end">Inscríbete aquí ></a>
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center w-xl-200 mx-auto">
+              <img src="./assets/ilustrations/hackaton.png"
+                   class="card-img-top img-fluid w-50 d-none d-xl-block" alt="Conferencias">
+              <div class="w-100">
+                <div class="w-200 mx-auto">
+                  <div class="p-4 bg-fuchsia-2 d-flex flex-column align-items-center mb-4 fs-4 rounded-20 ff-gilroy w-100">
+                    <i class="fa-solid fa-calendar mb-3 text-white fs-1"></i>
+                    <span class="card-subtitle text-white mb-3 fw-bold">
+                      Septiembre
+                    </span>
+                    <span class="card-subtitle text-white fw-bold">
+                      15 - 17
+                    </span>
+                  </div>
+                  <div class="w-100">
+                    <a href="#" class="card-link custom-link fw-bold text-center text-orange">Conoce más aquí <i class="fa-solid fa-caret-right"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-dark-fuchsia rounded-20 p-2">
-          <div class="card-body">
-            <h5 class="card-title fs-3 mb-3 fw-bold text-white">Talleres</h5>
-            <p class="card-text text-white mb-4">Talleres afines a la Ingeniería de Software. Se desarrollarán temas de
-              interés de diversas etapas de la carrera con el
-              fin de lograr mayor público interesado en el evento. Estos talleres serán dictados por alumnos, profesores
-              y externos
-              con experiencia en el campo, dependiendo del nivel del tema a desarrollar.</p>
-            <p class="card-subtitle text-white mb-3 fw-bold mb-4">
-              <i class="fa-solid fa-calendar me-2"></i>
-              Fecha del evento: 15/09 - 17/09
+        <div class="card bg-dark-fuchsia rounded-20 p-2 pb-xl-0">
+          <div class="card-body pb-xl-0">
+            <h5 class="card-title fs-1 fw-bold text-white">Talleres</h5>
+            <p class="card-text text-white mb-4">Talleres afines a la Ingeniería de Software. Se desarrollarán temas de interés de diversas etapas de la carrera con el fin de lograr mayor público interesado en el evento. Estos talleres serán dictados por alumnos, profesores y externos con experiencia en el campo, dependiendo del nivel del tema a desarrollar.
             </p>
-            <div class="d-flex justify-content-between">
-              <a href="#" class="card-link text-white custom-link align-self-end">Inscríbete aquí ></a>
-              <img src="./assets/ilustrations/Talleres.png" class="card-img-top img-fluid w-50" alt="Conferencias">
+            <div class="d-flex flex-column flex-xl-row justify-content-xl-between align-items-center w-xl-200 mx-auto">
+              <div class="w-100">
+                <div class="w-200 mx-auto">
+                  <div class="p-4 bg-dark-fuchsia-2 d-flex flex-column align-items-center mb-4 fs-4 rounded-20 ff-gilroy w-100">
+                    <i class="fa-solid fa-calendar mb-3 text-white fs-1"></i>
+                    <span class="card-subtitle text-white mb-3 fw-bold">
+                      Septiembre
+                    </span>
+                    <span class="card-subtitle text-white fw-bold">
+                      15 - 17
+                    </span>
+                  </div>
+                  <div class="w-100">
+                    <a href="#" class="card-link custom-link fw-bold text-center text-orange">Conoce más aquí <i class="fa-solid fa-caret-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <img src="./assets/ilustrations/Talleres.png" class="card-img-top img-fluid w-50 d-none d-xl-block" alt="Conferencias">
             </div>
           </div>
         </div>
