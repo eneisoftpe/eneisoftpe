@@ -23,18 +23,15 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue py-3">
     <div class="container-fluid w-1440 mx-auto">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logo.png" alt="Logo de Eneisoft">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <div class="mb-3 mt-4 mb-lg-0 mt-lg-0">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/logo.png" alt="">
-          </a>
-        </div>
+      <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link fs-6 ff-gilroy fw-semibold" href="#">Inicio</a>
@@ -60,9 +57,9 @@
     <!-- Cards -->
     <div class="row g-4" data-masonry='{ "percentPosition": true }'>
       <div class="col col-md-6">
-        <div class="card bg-orange rounded-20 position-relative">
+        <div class="card bg-orange rounded-20 position-relative p-2">
           <div class="card-body">
-            <h5 class="card-title fs-4 fw-bold text-white">Conferencias</h5>
+            <h5 class="card-title fs-3 fw-bold text-white">Conferencias</h5>
             <p class="card-text text-white mb-4">Ponencias de entre 45 a 60 minutos cada una y que se darán a lo largo
               de los tres días que
               dure el XII ENEISOFT.
@@ -77,7 +74,7 @@
               entre otros.</p>
             <p class="card-subtitle text-white mb-3 fw-bold">
               <i class="fa-solid fa-calendar me-2"></i>
-              Fecha del evento: 15/09 - 17/09
+              Set. 15 - Set. 17
             </p>
             <div class="d-flex justify-content-between">
               <img src="./assets/ilustrations/conferencias.png"
@@ -88,7 +85,7 @@
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-green rounded-20">
+        <div class="card bg-green rounded-20 p-2">
           <div class="card-body">
             <h5 class="card-title fs-4 fw-bold text-white">Programación Competitiva</h5>
             <p class="card-text text-white mb-4">El evento tiene como finalidad ser una competencia de programación
@@ -112,7 +109,7 @@
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-fuchsia rounded-20">
+        <div class="card bg-fuchsia rounded-20 p-2">
           <div class="card-body">
             <h5 class="card-title fs-4 fw-bold text-white">Hackathon
             </h5>
@@ -137,7 +134,7 @@
         </div>
       </div>
       <div class="col col-md-6">
-        <div class="card bg-dark-fuchsia rounded-20">
+        <div class="card bg-dark-fuchsia rounded-20 p-2">
           <div class="card-body">
             <h5 class="card-title fs-4 fw-bold text-white">Talleres</h5>
             <p class="card-text text-white mb-4">Talleres afines a la Ingeniería de Software. Se desarrollarán temas de
