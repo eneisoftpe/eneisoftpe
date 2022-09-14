@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'gilroylight';
+  src: url('../assets/fonts/gilroy-light-webfont.woff2') format('woff2'),
+    url('../assets/fonts/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .block {
   display: flex;
   flex-direction: column;
@@ -19,6 +27,16 @@
     position: sticky;    
     min-height: 761px;
   }
+}
+@media screen and (max-width: 768px) {
+  .block1.layout {
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+  .cover-block2.layout{
+    margin-bottom: 80px !important;
+  }
+  
 }
 .block1 {
   display: flex;
@@ -351,6 +369,14 @@
   margin: 4px 0px 0px;
 }
 
+
+.ff-gilroy {
+  font-family: 'gilroylight', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
 .flex1.layout2 {
   position: absolute;
   top: 35px;
@@ -492,6 +518,7 @@
   position: relative;
   width: 50%;
   margin: 120px 43.4% 0px 6.6%;
+  padding: 20px 0px;
 }
 @media screen and (min-width: 1001px) {
   .cover-block2.layout {
@@ -603,7 +630,7 @@
 
 .cover-block1.layout {
   position: relative;
-  margin: 51px 1px 0px 0px;
+  margin: 80px 1px 0px 0px;
 }
 
 .cover-block {
@@ -667,7 +694,14 @@
 
 .subtitle21.layout:hover {
   color: #5FB5E7;
-  background-color:rgb(206, 206, 206);
+  color: black;
+  background-color:rgb(206, 206, 206) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .info-card{
+    margin: 30px 100px;
+  }
 }
 @media screen and (min-width: 1001px) {
   .subtitle21 {

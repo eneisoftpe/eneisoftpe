@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'gilroylight';
+  src: url('../assets/fonts/gilroy-light-webfont.woff2') format('woff2'),
+    url('../assets/fonts/gilroy-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .bg-dark-blue {
   background-color: #223a59;
 }
@@ -15,7 +23,6 @@
 .lienzo {
   display: flex;
   justify-content: center;
-
   padding-bottom: 15px;
 }
 .card_section {
@@ -219,6 +226,7 @@ body {
       display: grid;
       grid-gap: 4.75em;
       grid-template-areas: ".  entry1" "entry2  ." ". entry3" "entry4 ." ". entry5" "entry6 ." ". entry7";
+      grid-template-columns: 1fr 1fr;
     }
     .timeline:before {
       left: 49.5%;
