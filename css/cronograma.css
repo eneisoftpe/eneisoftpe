@@ -29,6 +29,9 @@
   }
 
 
+
+
+
 }
 .lienzo {
   display: flex;
@@ -173,6 +176,31 @@ body {
   position: relative;
   background-color: #ffffff;
 }
+
+
+
+
+.ponencia-dada{
+  background-color: rgb(212, 210, 210) !important;
+
+}
+
+.ponencia-dada > p{
+  background-color: rgb(212, 210, 210) !important;
+  color: rgb(0, 0, 0) !important;
+
+
+}
+
+.ponencia-actual{
+  background-color: #5FB5E7 !important;
+
+}
+
+.ponencia-actual > p{
+  color: rgb(0, 0, 0) !important;
+}
+
 
 .timeline--entry__detail {
   text-align: center;
