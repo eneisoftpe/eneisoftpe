@@ -27,3 +27,7 @@ body {
 .w-1440 {
   max-width: 1440px;
 }
+
+.navbar{
+  position: sticky;
+}
