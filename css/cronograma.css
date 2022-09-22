@@ -231,7 +231,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 130%;
+  width: 100%;
 }
 
 @media screen and  (max-width: 768px){
