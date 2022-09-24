@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+
+.enlace-preguntas{
+  text-decoration:none;
+}
+.enlace-preguntas:hover{
+  color: #223a59;
+
+}
 .bg-dark-blue {
   background-color: #223a59;
 }
